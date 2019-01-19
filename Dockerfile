@@ -6,7 +6,7 @@ FROM raspbian/jessie
 
 #RUN apt-get install -y python3 python3-pip python3-virtualenv python3-dev && apt-get clean
 
-ADD Hornet2 /app/
+#ADD Hornet2 /app/
 
 WORKDIR /app
 
